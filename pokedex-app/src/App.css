@@ -1,0 +1,36 @@
+body{
+  text-align: center;
+  background-color: rgb(79, 143, 79);
+  color: rgb(150, 31, 110);
+  font-family: serif;
+  font-size: 20px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 
+  auto auto auto;
+  background-color: rgb(94, 94, 163);
+  padding: 10px;
+  
+}
+
+.element{
+  background-color: rgb(79, 143, 79);
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 5%;
+  text-align: center;
+  border: 3px solid rgb(230, 211, 43);
+  color: rgb(150, 31, 110);
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+
+}
+
+.element:hover{
+background-color: rgb(192, 138, 147);
+opacity: 0.5;
+}

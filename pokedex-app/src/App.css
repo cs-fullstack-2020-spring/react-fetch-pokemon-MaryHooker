@@ -10,9 +10,8 @@ body{
   display: grid;
   grid-template-columns: 
   auto auto auto;
-  background-color: rgb(94, 94, 163);
+  background-color: rgb(61, 61, 122);
   padding: 10px;
-  
 }
 
 .element{
@@ -20,7 +19,7 @@ body{
   padding: 20px;
   margin-left: auto;
   margin-right: auto;
-  margin: 5%;
+  margin: 10%; 
   text-align: center;
   border: 3px solid rgb(230, 211, 43);
   color: rgb(150, 31, 110);

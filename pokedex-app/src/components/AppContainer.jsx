@@ -41,6 +41,7 @@ class AppContainer extends Component {
                         return(
                             <div key={index}>
                                <p className='element'>{pokemon.name}</p> 
+                               <img src={`/img/${pokemon.name}.png`}alt="image" id={`/img/${pokemon.url}.png`} parts={pokemon.url.split('/')}/>
                             </div>
                         )
                     }

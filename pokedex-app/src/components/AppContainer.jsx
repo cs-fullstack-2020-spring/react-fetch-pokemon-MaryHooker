@@ -38,10 +38,17 @@ class AppContainer extends Component {
             <div className='container'>
                 {
                     this.state.pokemon.map((pokemon,index)=>{
+
+                        let pokemon_url_parts = pokemon.url.split('/');
+                        let pokemon_id = pokemon_url_parts[6];
+                        let pokemon_img_href = `/img/${pokemon_id}.png`;
+
+                        console.log(pokemon_url_parts)
                         return(
                             <div key={index}>
                                <p className='element'>{pokemon.name}</p> 
-                               <img src={`/img/${pokemon.name}.png`}alt="image" id={`/img/${pokemon.url}.png`} parts={pokemon.url.split('/')}/>
+                               <img src={pokemon_img_href} alt='image'>{pokemon} </img>
+                              
                             </div>
                         )
                     }

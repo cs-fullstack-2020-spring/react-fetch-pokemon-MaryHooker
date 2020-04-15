@@ -1,5 +1,6 @@
 # Use the external Pokedex API
-
+#### Great work, love the on hover and very useful comments. Looks like you got close with the images just didn't unzip it in the right place cause I don't see an image folder in your react app. Also not sure what the "parts" and "id" attributes are for.
+#### Score : 5/5
 Write a simple application for displaying pokemon from the API https://pokeapi.co/
 
 Start by just displaying the Pokemon names in a grid with a header on the page.
